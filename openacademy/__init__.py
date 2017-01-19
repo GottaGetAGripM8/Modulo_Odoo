@@ -1,3 +1,4 @@
 # -*- coding: utf-8 -*-
-from controllers import controllers
-from models import models
+from . import controllers #SKIP
+from . import models
+from . import partner
